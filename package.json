@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "SC-Launcher",
   "version": "2.0.5",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "StreetCraft Launcher",
+  "description": "StreetCraft Launcher",
   "main": "app/index.html",
   "author": "Luuxis",
   "window": {
-    "title": "Uzurion update",
+    "title": "SC Update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -18,7 +18,7 @@
     "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://146.59.227.140",
+  "url": "http://server-launcher.000webhostapp.com/web/",
   "user": "",
   "webkit": {
     "plugin": true
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "StreetCraft Launcher",
     "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "StreetCraft Launcher",
+      "companyName": "StreetCraft Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "StreetCraft-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "StreetCraft-Launcher"
       }
     },
     "nsis": {

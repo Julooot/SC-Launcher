@@ -1,13 +1,13 @@
 {
   "maintenance": "off",
-  "maintenance_message": "Le server est en maintenance.<br>Merci de bien vouloir essayer ultérieurement.",
+  "maintenance_message": "Le serveur est actuellement en maintenance.<br>Merci de bien vouloir réessayer ultérieurement.",
   "offline": "off",
   "client_id": "",
-  "game_version": "1.0",
-  "custom": false,
+  "game_version": "1.18.1",
+  "custom": true,
   "verify": false,
   "java": true,
   "game_args": [],
-  "dataDirectory": ".minecraft",
-  "ignored": ["config.json"]
+  "dataDirectory": ".streetcraft",
+  "ignored": ["config.json", "options.txt"]
 }
